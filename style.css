@@ -6,7 +6,9 @@
 
 #header
 {
-	background: #ccc;
+	color: #00F64A;
+	text-align:center;
+	background: #000;
 	padding: 20px;
 }
 
@@ -36,7 +38,7 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
@@ -45,9 +47,11 @@
 
 #edito
 {
+	text-align: center;	
 	clear: left;
 	padding: 20px;
 	margin: 20px;
+	background-color: #7CF977;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
@@ -57,18 +61,20 @@
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.99;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #000000;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
 
 #news
 {	
+	text-align: center;	
+	background-color: #7CF977;
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -82,13 +88,13 @@
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.99;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #BAFAB8;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
